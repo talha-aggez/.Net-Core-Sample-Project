@@ -6,3 +6,4 @@ D:\Engin Demirog\MyProject\Core1\obj\Debug\netstandard2.0\Core1.AssemblyInfo.cs
 D:\Engin Demirog\MyProject\Core1\obj\Debug\netstandard2.0\Core1.dll
 D:\Engin Demirog\MyProject\Core1\obj\Debug\netstandard2.0\Core1.pdb
 D:\Engin Demirog\MyProject\Core1\obj\Debug\netstandard2.0\Core1.csproj.CoreCompileInputs.cache
+D:\Engin Demirog\MyProject\Core1\obj\Debug\netstandard2.0\Core1.csprojAssemblyReference.cache

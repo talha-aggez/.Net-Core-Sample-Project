@@ -38,10 +38,16 @@ namespace ConsoleUI
         private static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EFProductDal());
-            foreach (var item in productManager.GetProductDetails())
+            var result = productManager.GetAll();
+            if (result.Success)
             {
-                Console.WriteLine(item.ProductName +  " / " + item.CategoryName);
+                foreach (var item in result.Data)
+                {
+                    Console.WriteLine(item.ProductName + " / " + item.CategoryId);
+                }
             }
+            else
+                Console.WriteLine(result.Message);
         }
     }
 }
